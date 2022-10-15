@@ -2,7 +2,15 @@
     "configurations": [
         {
             "type": "cargo",
-            "name": "rust-runner",
+            "name": "Run & Build (release)",
+            "cargoArgs": ["run", "--release"],
+            "cargoExtraArgs": [],
+        },
+        {
+            "type": "cargo",
+            "name": "Check",
+            "cargoArgs": ["check", "-r"],
+            "cargoExtraArgs": [],
         },
         
     ]
