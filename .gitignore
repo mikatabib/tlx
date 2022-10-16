@@ -20,4 +20,4 @@
 /target
 
 # ignore main.rs, just for this repo
-main.rs
+src/main.rs
